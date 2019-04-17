@@ -16,7 +16,7 @@ global.servers = {};
 bot.on("guildMemberAdd", function(member)
 {
     member.send("Добро пожаловать на сервер!");
-    let memberRole = member.guild.roles.find("name", "New member");
+    let memberRole = member.guild.roles.find("name", "Fresh Meat");
     member.addRole(memberRole);
 });
 
