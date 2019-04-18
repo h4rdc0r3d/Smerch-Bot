@@ -1,6 +1,8 @@
 const Commando = require('discord.js-commando');
 const discord = require('discord.js');
-const bot = new Commando.Client();
+const bot = new commando.Client({
+    commandPrefix: '>'
+    });
 
 bot.on('ready', () => {
     bot.user.setStatus('available')
