@@ -7,7 +7,7 @@ class DruidCommand extends commando.Command
     {
         super(client,{
             name: 'druid', 
-            group: 'simple',
+            group: 'warcraft',
             memberName: 'druid', 
             description: 'класс Дрюля' 
         });
