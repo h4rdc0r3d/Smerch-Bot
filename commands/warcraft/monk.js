@@ -22,7 +22,7 @@ class MonkCommand extends commando.Command
             .addField("<:dd:567647267578707988> **Windwalker**", "[ссылка на гайд](https://www.icy-veins.com/wow/windwalker-monk-pve-dps-guide)", true) 
             .setDescription ("Выберите спек")
             .setColor("#03ff8b")
-            .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640466183421973/9_3_.png")
+            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417783084351491/7_6_.png")
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
     }  
