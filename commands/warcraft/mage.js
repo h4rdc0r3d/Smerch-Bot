@@ -22,7 +22,7 @@ class MageCommand extends commando.Command
             .addField("<:dd:567647267578707988> **Frost**", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-mage-pve-dps-guide)", true) 
             .setDescription ("Выберите спек")
             .setColor("#5ec5ee")
-            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417783084351491/7_6_.png")
+            .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640466183421973/9_3_.png")
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
     }  
