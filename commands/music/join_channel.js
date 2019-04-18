@@ -1,4 +1,4 @@
-const commando = require('discord.js-commando');
+onst commando = require('discord.js-commando');
 const YTDL = require('ytdl-core');
 
 function Play(connection, message)
@@ -26,7 +26,7 @@ class JoinChannelCommand extends commando.Command
             name: 'join',
             group: 'music',
             memberName: 'join',
-            description: 'Подключение бота к голосовому каналу'
+            description: 'info'
         });
     }
 
@@ -43,7 +43,7 @@ class JoinChannelCommand extends commando.Command
                 message.member.voiceChannel.join()
                     .then(connection =>{
                         var server =  servers[message.guild.id];
-                        message.reply(" Ты звал меня ?");
+                        message.reply(" message");
                         server.queue.push(args);
                         Play(connection, message);
                     })
@@ -51,9 +51,9 @@ class JoinChannelCommand extends commando.Command
         }
         else
         {
-            message.reply("Присоединись к каналу, что позвать бота");
+            message.reply("message");
         }
     }
 }
 
-module.exports = JoinChannelCommand; 
+module.exports = JoinChannelCommand;
