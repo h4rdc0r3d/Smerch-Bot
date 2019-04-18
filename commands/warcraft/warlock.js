@@ -22,7 +22,7 @@ class WarlockCommand extends commando.Command
             .addField("<:dd:567647267578707988> **Destruction**", "[ссылка на гайд](https://www.icy-veins.com/wow/destruction-warlock-pve-dps-guide)", true) 
             .setDescription ("Выберите спек")
             .setColor("#8a76b4")
-            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417861219909633/9_6_.png")
+            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417787106820106/7_7_.png")
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
     }  
