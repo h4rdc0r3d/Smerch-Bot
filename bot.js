@@ -1,6 +1,6 @@
 const Commando = require('discord.js-commando');
 const discord = require('discord.js');
-const bot = new commando.Client({
+const bot = new Commando.Client({
     commandPrefix: '>'
     });
 
