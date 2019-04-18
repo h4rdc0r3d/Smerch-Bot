@@ -25,7 +25,6 @@ class DemonCommand extends commando.Command
             .addField ("bloodmalet" , "[Frost](https://bloodmallet.com/index.html#death_knight_frost)", true)
             .setDescription ("Выберите спек")
             .setColor("#bc1c34")
-            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417827917266971/9_7_.png)
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
     }  
