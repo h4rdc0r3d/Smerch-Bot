@@ -9,7 +9,7 @@ class DruidCommand extends commando.Command
             name: 'druid', 
             group: 'warcraft',
             memberName: 'druid', 
-            description: 'класс Дрюля' 
+            description: 'класс друид' 
         });
     }
 
