@@ -22,7 +22,7 @@ class DruidCommand extends commando.Command
             .addField("<:dd:567647267578707988>**Кот**", "[ссылка на гайд](https://www.icy-veins.com/wow/feral-druid-pve-dps-guide)", true) 
             .addField("<:heal:567647266962276352>**Дерево**", "[ссылка на гайд](https://www.icy-veins.com/wow/restoration-druid-pve-healing-guide)", true)
             .setDescription ("Выберите спек")
-            .setColor("#03ff8b") ///тут ненадо
+            .setColor("#ee7020") ///тут ненадо
             .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640472324014081/9_5_.png") /// тут ненадо
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
