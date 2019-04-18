@@ -50,25 +50,6 @@ bot.on ('message', function(message){
     }
 });
 
-var badWords = [
-  'сука',
-  'бля',
-  'блять',
-  'мудак'
-];
-
-bot.on('message', message => {
-  var words = message.content.toLowerCase().trim().match(/\w+|\s+|[^\s\w]+/g);
-  var containsBadWord = words.some(word => {
-    return badWords.includes(word);
-  });
-  if (containsBadWord) {
-    message.delete(1);
-    message.channel.send("Сообщение удалено! содержит нецензурные слова");
-  }
-});
-
-
 bot.on('voiceStateUpdate', (oldMember, newMember) => {
     // Here I'm storing the IDs of their voice channels, if available
     let oldChannel = oldMember.voiceChannel ? oldMember.voiceChannelID : null;
