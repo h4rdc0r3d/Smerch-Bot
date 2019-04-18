@@ -18,6 +18,7 @@ bot.on('ready', () => {
 bot.registry.registerGroup('simple', 'Simple');
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('team', 'Team');
+bot.registry.registerGroup('warcraft', 'Warcraft');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands');
 
