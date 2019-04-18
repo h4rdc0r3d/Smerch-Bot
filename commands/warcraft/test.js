@@ -18,11 +18,11 @@ class DemonCommand extends commando.Command
         var myinfo = new discord.RichEmbed()
             .setTitle("Класс Death Knight")
             .addField("<:dd:567647267578707988> **Frost**", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-death-knight-pve-dps-guide)", true)
-            .addField("🗅","[Frost](https://bloodmallet.com/index.html#death_knight_frost)"
+            .addField(" ","[Frost](https://bloodmallet.com/index.html#death_knight_frost)", true)
             .addField("<:dd:567647267578707988> **Lost**", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-death-knight-pve-dps-guide)", false)
-            .addField("🗅","[Lost](https://bloodmallet.com/index.html#death_knight_unholy)"
+            .addField("–","[Lost](https://bloodmallet.com/index.html#death_knight_unholy)", true)
             .addField("<:dd:567647267578707988> **Lost**", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-death-knight-pve-dps-guide)", true)
-            .addField("🗅","[Lost](https://bloodmallet.com/index.html#death_knight_unholy)")
+            .addField("–","[Lost](https://bloodmallet.com/index.html#death_knight_unholy)", true)
             .setDescription ("Выберите спек")
             .setColor("#bc1c34")
             .setFooter("(c) Smerch Bot")
