@@ -1,4 +1,4 @@
-onst commando = require('discord.js-commando');
+const commando = require('discord.js-commando');
 const YTDL = require('ytdl-core');
 
 function Play(connection, message)
