@@ -16,11 +16,16 @@ class Demonhunter1Command extends commando.Command
     async run(message , args)
     {
         var myinfo = new discord.RichEmbed()
-            .setTitle("Класс Demon Hunter")
-            .addField(":dd: Unholy", "[ссылка на гайд](https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-guide)", "[Ссылка на блудмаллет](https://bloodmallet.com/index.html#death_knight_unholy)", true)  
+            .setTitle("Класс Death Knight")
+            .addField(":tank: Blood", "[ссылка на гайд](https://www.icy-veins.com/wow/blood-death-knight-pve-tank-guide)", true)
+            .addField(":dd: Frost", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-death-knight-pve-dps-guide)", true) 
+            .addField(":dd: Unholy", "[ссылка на гайд](https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-guide)", true)
+            .addField ("bloodmalet" , "[Unholy](https://bloodmallet.com/index.html#death_knight_unholy)", true)
+            .addField ("bloodmalet" , "[Blood](https://bloodmallet.com/index.html#death_knight_blood)", true)
+            .addField ("bloodmalet" , "[Frost](https://bloodmallet.com/index.html#death_knight_frost)", true)
             .setDescription ("Выберите спек")
-            .setColor("#992bc2")
-            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417794732064768/7_10_.png")
+            .setColor("#bc1c34")
+            .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417827917266971/9_7_.png%22)
             .setFooter("(c) Smerch Bot")
          message.channel.sendEmbed(myinfo);
     }  
