@@ -17,7 +17,7 @@ class DemonCommand extends commando.Command
     {
         var myinfo = new discord.RichEmbed()
             .setTitle("Класс Death Knight")
-            .addField("<:tank:567647267171991564> **Most**", "[ссылка на гайд](https://www.icy-veins.com/wow/blood-death-knight-pve-tank-guide)" + "[Blood](https://bloodmallet.com/index.html#death_knight_blood"), true)
+            .addField("<:tank:567647267171991564> **Most**", "[ссылка на гайд](https://www.icy-veins.com/wow/blood-death-knight-pve-tank-guide)" + "[Blood](https://bloodmallet.com/index.html#death_knight_blood")), true)
             .addField ("bloodmalet" , "[Blood](https://bloodmallet.com/index.html#death_knight_blood)", false)
             .addField("<:dd:567647267578707988> **Frost**", "[ссылка на гайд](https://www.icy-veins.com/wow/frost-death-knight-pve-dps-guide)", true)
             .addField ("bloodmalet" , "[Frost](https://bloodmallet.com/index.html#death_knight_frost)", false)
