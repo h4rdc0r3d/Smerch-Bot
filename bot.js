@@ -39,11 +39,11 @@ bot.on ('message', function(message){
     }
     else if(message.content == 'daddy')
     {
-        message.channel.sendMessage(message.author + '@oldfag#3527 is my daddy');
+        message.channel.sendMessage(message.author + ' @oldfag#3527 is my daddy');
     }
     else if(message.content == 'Альянс')
     {
-        message.channel.sendMessage(message.author + 'наверное **Орда**');
+        message.channel.sendMessage(message.author + ' наверное **Орда**');
     }    
    else if (message.content === `"паладин"`) {      
     message.channel.type === (`"dm"`) + message.author.sendMessage(`"https://www.youtube.com/watch?v=pbkHJpYCl80"`) 
