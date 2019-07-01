@@ -1,7 +1,7 @@
 const Commando = require('discord.js-commando');
 const discord = require('discord.js');
 const bot = new Commando.Client({
-    commandPrefix: '>'
+    commandPrefix: 'c!'
     });
 
 bot.on('ready', () => {
