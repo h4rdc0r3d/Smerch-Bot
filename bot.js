@@ -47,12 +47,6 @@ bot.on ('message', function(message){
     }    
 });
 
-bot.on('message', msg => {    
-  if (msg.content === `пал`) {      
-    message.author.send(`https://www.youtube.com/watch?v=pbkHJpYCl80`) 
-  }
-});
-
 bot.on('voiceStateUpdate', (oldMember, newMember) => {
     // Here I'm storing the IDs of their voice channels, if available
     let oldChannel = oldMember.voiceChannel ? oldMember.voiceChannelID : null;
