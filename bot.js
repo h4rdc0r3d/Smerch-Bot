@@ -49,7 +49,7 @@ bot.on ('message', function(message){
 
 bot.on('message', msg => {    
   if (msg.content === `"пал"`) {      
-    member.send(`"https://www.youtube.com/watch?v=pbkHJpYCl80"`) 
+    message.author.send(`"https://www.youtube.com/watch?v=pbkHJpYCl80"`) 
   }
 });
 
