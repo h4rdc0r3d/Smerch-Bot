@@ -16,12 +16,12 @@ class InfoCommand extends commando.Command
     async run(message , args)
     {
         var myinfo = new discord.RichEmbed()
-            .setTitle("Не кликай!")
+            .setTitle("!!!!")
             .setDescription ("Информация о гильдии")
             .setColor("#ff000a")
             .setThumbnail("https://1eu.funnyjunk.com/thumbnails/comments/So+apparently+we+learnt+how+the+orcs+do+it+_cca58968f56f4601272ae9737036d3ea.jpg")
-            .setURL("http://ung-unf.org")
-            .setFooter("(c) Не кликай на название")
+            .setURL("")
+            .setFooter("(c)")
 
             message.channel.sendEmbed(myinfo);
     }
