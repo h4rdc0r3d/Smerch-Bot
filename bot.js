@@ -48,8 +48,8 @@ bot.on ('message', function(message){
 });
 
 bot.on('message', msg => {    
-  if (msg.content === `"пал"`) {      
-    message.author.send(`"https://www.youtube.com/watch?v=pbkHJpYCl80"`) 
+  if (msg.content === `пал`) {      
+    message.author.sendMessage(`https://www.youtube.com/watch?v=pbkHJpYCl80`) 
   }
 });
 
