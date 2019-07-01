@@ -15,8 +15,6 @@ bot.on('ready', () => {
     });
 });
 
-Discord.Client.setUsername("LOOOOOOOOOOOL")
-
 bot.registry.registerGroup('simple', 'Simple');
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('team', 'Team');
