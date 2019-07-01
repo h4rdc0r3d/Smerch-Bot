@@ -51,7 +51,7 @@ bot.on('message', msg => {
   if (msg.content === `"пал"`) {      
     msg.channel.type === (`"dm"`) + msg.author.sendMessage(`"https://www.youtube.com/watch?v=pbkHJpYCl80"`) 
   }
-}
+});
 
 bot.on('voiceStateUpdate', (oldMember, newMember) => {
     // Here I'm storing the IDs of their voice channels, if available
