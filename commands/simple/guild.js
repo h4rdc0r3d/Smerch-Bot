@@ -17,12 +17,11 @@ class InfoCommand extends commando.Command
     {
         var myinfo = new discord.RichEmbed()
             .setTitle("Не кликай!")
-            .addField("Офицеры", "Васятха,", true)
             .setDescription ("Информация о гильдии")
             .setColor("#ff000a")
             .setThumbnail("https://1eu.funnyjunk.com/thumbnails/comments/So+apparently+we+learnt+how+the+orcs+do+it+_cca58968f56f4601272ae9737036d3ea.jpg")
             .setURL("http://ung-unf.org")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c) Не кликай на название")
 
             message.channel.sendEmbed(myinfo);
     }
