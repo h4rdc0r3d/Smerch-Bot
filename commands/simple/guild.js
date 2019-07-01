@@ -16,15 +16,12 @@ class InfoCommand extends commando.Command
     async run(message , args)
     {
         var myinfo = new discord.RichEmbed()
-            .setTitle("C М Е Р Ч")
+            .setTitle("Не кликай!")
             .addField("Офицеры", "Васятха,", true)
-            .addField("Рейд Тайм", "Пн. Вт. Ср. Чт. Пт. Сб. Вс. с 20:30 до 00:00", true)
-            .addField("Аддоны", "BigWigs|DBM - Exorsus Raid Tools - WA|TMW - RCLootCouncil| Astral Keys", true)
-            .addField("Шмот", "365+ | Шея 27+", true)
             .setDescription ("Информация о гильдии")
             .setColor("#ff000a")
-            .setThumbnail("https://cdn.discordapp.com/attachments/519132230010929153/521114484341997588/icon.png")
-            .setURL("http://ya.ru")
+            .setThumbnail("https://1eu.funnyjunk.com/thumbnails/comments/So+apparently+we+learnt+how+the+orcs+do+it+_cca58968f56f4601272ae9737036d3ea.jpg")
+            .setURL("http://ung-unf.org")
             .setFooter("(c) Smerch Bot")
 
             message.channel.sendEmbed(myinfo);
