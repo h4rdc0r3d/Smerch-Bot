@@ -17,7 +17,7 @@ class InfoCommand extends commando.Command
     {
         var myinfo = new discord.RichEmbed()
             .setTitle("Гильдия «Б Р И З» [СД - Орда]")
-            .addField("Мать(~~старая~~)", "Васятха", true)
+            .addField("Мать(~~`старая`~~)", "Васятха", true)
             .addField("Совесть", "Совесть", true)
             .addField("Честь", "Афимида D:", true)
             .setDescription ("Бесполезная Информация о гильдии")
