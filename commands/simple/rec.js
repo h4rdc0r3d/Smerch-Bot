@@ -20,6 +20,7 @@ class InfoCommand extends commando.Command
             .addField("Мать(~~`старая`~~)", "Васятха", true)
             .addField("Совесть", "Совесть", true)
             .addField("Честь", "Афимида D:", true)
+            .addField("<3", "🌈 (Паладинов)", true)
             .setDescription ("Бесполезная Информация о гильдии")
             .setColor("#ff000a")
             .setThumbnail("https://cdn.discordapp.com/attachments/519132230010929153/521114484341997588/icon.png")
