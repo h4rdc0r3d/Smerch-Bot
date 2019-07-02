@@ -24,7 +24,7 @@ class DruidCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#ee7020") ///тут ненадо
             .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640472324014081/9_5_.png") /// тут ненадо
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
