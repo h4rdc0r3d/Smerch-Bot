@@ -23,7 +23,7 @@ class PaladinCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#f087a2")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417861219909633/9_6_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
