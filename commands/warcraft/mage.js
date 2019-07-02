@@ -23,7 +23,7 @@ class MageCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#5ec5ee")
             .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640466183421973/9_3_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
