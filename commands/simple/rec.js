@@ -17,10 +17,10 @@ class InfoCommand extends commando.Command
     {
         var myinfo = new discord.RichEmbed()
             .setTitle("Гильдия «Б Р И З» [СД - Орда]")
-            .addField("Ум (~~`старая`~~)", "Васятха", true)
+            .addField("Ум", "Васятха 👵🏻", true)
             .addField("Совесть", "Совесть🐾", true)
-            .addField("Честь", "Афимида D:", true)
-            .addField("Отвага", "Олдфаг'a", true)
+            .addField("Честь", "Афимида 🦄 ", true)
+            .addField("Отвага", "Олдфаг'a ☄️, true)
             .addField("<3", "🌈 (Паладинов)", true)
             .setDescription ("Бесполезная Информация о гильдии")
             .setColor("#ff000a")
