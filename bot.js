@@ -27,7 +27,7 @@ global.servers = {};
 
 bot.on("guildMemberAdd", function(member)
 {
-    member.send("Добро пожаловать в Смерч, ожидайте авторизации. Вас перенесут в нужный канал или авторизуют в определенную группу");
+    member.send("Добро пожаловать в Бриз, ожидайте авторизации. Вас перенесут в нужный канал или авторизуют в определенную группу");
     let memberRole = member.guild.roles.find("name", "Fresh Meat");
     member.addRole(memberRole);
 });
