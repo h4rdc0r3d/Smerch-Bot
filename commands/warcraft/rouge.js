@@ -23,7 +23,7 @@ class RougeCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#fff35e")
             .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640463016722433/9_2_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
