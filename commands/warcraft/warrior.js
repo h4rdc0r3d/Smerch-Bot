@@ -23,7 +23,7 @@ class WarriorCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#a68569")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417779871383553/7_5_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
