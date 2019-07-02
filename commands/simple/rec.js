@@ -20,7 +20,7 @@ class InfoCommand extends commando.Command
             .addField("Ум", "Васятха 👵🏻", true)
             .addField("Совесть", "Совесть🐾", true)
             .addField("Честь", "Афимида 🦄 ", true)
-            .addField("Отвага", "Олдфаг'a 🌊, true)
+            .addField("Отвага", "Олдфаг'a 🌊", true)
             .addField("<3", "🌈 (Паладинов)", true)
             .setDescription ("Бесполезная Информация о гильдии")
             .setColor("#ff000a")
