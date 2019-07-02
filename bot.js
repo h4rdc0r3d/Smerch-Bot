@@ -33,9 +33,9 @@ bot.on("guildMemberAdd", function(member)
 });
 
 bot.on ('message', function(message){
-    if(message.content == 'Hello')
+    if(message.content == 'привет')
     {
-        message.channel.sendMessage('Hello' + message.author + 'how are you ?');
+        message.channel.sendMessage('привет' + message.author + 'че, как оно?');
     }
     else if(message.content == 'daddy')
     {
