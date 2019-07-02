@@ -23,7 +23,7 @@ class WarlockCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#8a76b4")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417787106820106/7_7_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
