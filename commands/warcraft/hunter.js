@@ -23,7 +23,7 @@ class HunterCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#a1c152")
             .setThumbnail("https://media.discordapp.net/attachments/521105677234601995/567640453227347969/7_8_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
