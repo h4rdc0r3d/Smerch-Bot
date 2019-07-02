@@ -23,7 +23,7 @@ class PriestCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#ffffff")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417804038963230/9_4_.png ")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
