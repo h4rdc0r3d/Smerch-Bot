@@ -22,7 +22,7 @@ class DemonhunterCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#992bc2")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417794732064768/7_10_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
