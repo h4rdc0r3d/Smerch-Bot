@@ -23,7 +23,7 @@ class ShamanCommand extends commando.Command
             .setDescription ("Выберите спек")
             .setColor("#3576bc")
             .setThumbnail("https://media.discordapp.net/attachments/567294684771254272/568417792462684160/7_9_.png")
-            .setFooter("(c) Smerch Bot")
+            .setFooter("(c)")
          message.channel.sendEmbed(myinfo);
     }  
 }
